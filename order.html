@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Penny Juice - Contact Us</title>
+    <meta name="Keywords" content="Las Vegas, Healthy Lifestyle, Pre School, Juices, Contact Form, Order">
+    <meta name="author" content="Olena Pechorina">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css"/>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="../IMAGES/logo1.png" alt="Penny Juice Logo">
+                </a>
+            </div>
+
+            <div class="content">
+                <div class="topnav">
+                    <ul>
+                        <li><a href="index.html"><b>HOME</b></a></li>
+                        <li><a href="about.html"><b>ABOUT US</b></a></li>
+                        <li><a href="flavors.html"><b>FLAVORS</b></a>
+                            <ul class="submenu">
+                                <li><a href="apple.html">Apple</a></li>
+                                <li><a href="mango.html">Mango</a></li>
+                                <li><a href="orange.html">Orange</a></li>
+                                <li><a href="grape.html">Grape</a></li>
+                                <li><a href="pear.html">Pear</a></li>
+                                <li><a href="lemon.html">Lemon</a></li>
+                                <li><a href="strawberry.html">Strawberry</a></li>
+                                <li><a href="plum.html">Plum</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="order.html"><b>ORDER</b></a></li>
+                        <li><a href="contact.html"><b>CONTACT</b></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="utilities">
+                <form class="search" action="search.html" method="get">
+                    <input type="text" name="q" placeholder="Search">
+                </form>
+                <div class="actions">
+                    <a class="btn util" href="login.html">SIGN IN</a>
+                    <a class="btn util" href="cart.html">CART</a>
+                </div>
+            </div>
+        </div> 
+    </header>
+
+    <main>
+        <div class="container contact-section">
+            <div class="contact-info">
+                <h1>Ready to Join the Penny Juice Family?</h1>
+                <p>Fill out the form below to receive a **free sample and pricing guide**! Our wholesome juices are perfect for preschools, daycares, and schools across the nation. We look forward to partnering with you!</p>
+                
+                <div class="contact-details">
+                    <h3>Contact Directly:</h3>
+                    <p>📧 Email: info@pennyjuice.com</p>
+                    <p>📞 Phone: (563) 386-1999</p>
+                    <p>🚚 Nationwide Shipping Available</p>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <h2>Customer Sign-Up Form</h2>
+                <form action="/submit-contact" method="POST" class="contact-form">
+                    
+                    <label for="company-name">Facility Name (Required)</label>
+                    <input type="text" id="company-name" name="company-name" placeholder="ABC Preschool" required>
+
+                    <label for="contact-name">Your Name (Required)</label>
+                    <input type="text" id="contact-name" name="contact-name" placeholder="John Doe" required>
+                    
+                    <label for="email">Email Address (Required)</label>
+                    <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
+
+                    <label for="phone">Phone Number (Required)</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555" required>
+                    
+                    <label for="message">Questions or Specific Requests</label>
+                    <textarea id="message" name="message" rows="4" placeholder="I'd like to ask about grape flavor stock."></textarea>
+                    
+                    <input type="submit" value="REQUEST FREE SAMPLE & PRICING" class="btn submit-btn">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="../IMAGES/logo2.png" alt="Penny Juice Logo">
+                <p>Healthy Juice for Happy Kids. Freshly made and delivered nationwide.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="flavors.html">Flavors</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Email: info@pennyjuice.com</p>
+                <p>Phone: (563) 386-1999</p>
+                <p>Free Nationwide Shipping</p>
+            </div>
+        </div>
+
+        <div class="bottom">
+            © 2025 Penny Juice. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
