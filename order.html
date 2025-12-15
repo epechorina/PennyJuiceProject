@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
-    <title>Penny Juice - Contact Us</title>
-    <meta name="Keywords" content="Las Vegas, Healthy Lifestyle, Pre School, Juices, Contact Form, Order">
+    <title>Penny Juice - Place Your Order</title>
+    <meta name="Keywords" content="Order Juice, Penny Juice, Preschool, Healthy Drinks">
     <meta name="author" content="Olena Pechorina">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -54,40 +53,130 @@
     </header>
 
     <main>
-        <div class="container contact-section">
-            <div class="contact-info">
-                <h1>Ready to Join the Penny Juice Family?</h1>
-                <p>Fill out the form below to receive a **free sample and pricing guide**! Our wholesome juices are perfect for preschools, daycares, and schools across the nation. We look forward to partnering with you!</p>
+        <div class="order-page"> <h1 class="order-title">ORDER</h1>
+            
+            <div class="order-grid">
                 
-                <div class="contact-details">
-                    <h3>Contact Directly:</h3>
-                    <p>📧 Email: info@pennyjuice.com</p>
-                    <p>📞 Phone: (563) 386-1999</p>
-                    <p>🚚 Nationwide Shipping Available</p>
-                </div>
-            </div>
-
-            <div class="contact-form-wrapper">
-                <h2>Customer Sign-Up Form</h2>
-                <form action="/submit-contact" method="POST" class="contact-form">
-                    
-                    <label for="company-name">Facility Name (Required)</label>
-                    <input type="text" id="company-name" name="company-name" placeholder="ABC Preschool" required>
-
-                    <label for="contact-name">Your Name (Required)</label>
-                    <input type="text" id="contact-name" name="contact-name" placeholder="John Doe" required>
-                    
-                    <label for="email">Email Address (Required)</label>
-                    <input type="email" id="email" name="email" placeholder="john.doe@example.com" required>
-
-                    <label for="phone">Phone Number (Required)</label>
-                    <input type="tel" id="phone" name="phone" placeholder="(555) 555-5555" required>
-                    
-                    <label for="message">Questions or Specific Requests</label>
-                    <textarea id="message" name="message" rows="4" placeholder="I'd like to ask about grape flavor stock."></textarea>
-                    
-                    <input type="submit" value="REQUEST FREE SAMPLE & PRICING" class="btn submit-btn">
+                <form class="order-item" action="cart.html" method="POST">
+                    <img src="IMAGES/BottleApple.Optimized.jpg" alt="Apple Juice Bottle">
+                    <p class="product-price">Price 10.99</p>
+                    <h3>Apple</h3>
+                    <div class="quantity-control">
+                        <span>Quantity</span>
+                        <div class="qty-buttons">
+                            <button type="button" class="qty-btn minus">-</button>
+                            <input type="text" name="qty_apple" value="1" min="1" class="qty-input">
+                            <button type="button" class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
                 </form>
+
+                <form class="order-item" action="cart.html" method="POST">
+                    <img src="../IMAGES/BottleGrape.Optimized.jpg" alt="Grape Juice Bottle">
+                    <p class="product-price">Price 10.99</p>
+                    <h3>Grape</h3>
+                    <div class="quantity-control">
+                        <span>Quantity</span>
+                        <div class="qty-buttons">
+                            <button type="button" class="qty-btn minus">-</button>
+                            <input type="text" name="qty_grape" value="1" min="1" class="qty-input">
+                            <button type="button" class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
+                </form>
+
+                <form class="order-item" action="cart.html" method="POST">
+                    <img src="../IMAGES/BottleLemon.Optimized.jpg" alt="Lemon Juice Bottle">
+                    <p class="product-price">Price 10.99</p>
+                    <h3>Lemon</h3>
+                    <div class="quantity-control">
+                        <span>Quantity</span>
+                        <div class="qty-buttons">
+                            <button type="button" class="qty-btn minus">-</button>
+                            <input type="text" name="qty_lemon" value="1" min="1" class="qty-input">
+                            <button type="button" class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
+                </form>
+
+                <form class="order-item" action="cart.html" method="POST">
+                    <img src="../IMAGES/BottleMango.Optimized.jpg" alt="Mango Juice Bottle">
+                    <p class="product-price">Price 10.99</p>
+                    <h3>Mango</h3>
+                    <div class="quantity-control">
+                        <span>Quantity</span>
+                        <div class="qty-buttons">
+                            <button type="button" class="qty-btn minus">-</button>
+                            <input type="text" name="qty_mango" value="1" min="1" class="qty-input">
+                            <button type="button" class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
+                </form>
+
+                <form class="order-item" action="cart.html" method="POST">
+                    <img src="../IMAGES/BottleOrange.Optimized.jpg" alt="Orange Juice Bottle">
+                    <p class="product-price">Price 10.99</p>
+                    <h3>Orange</h3>
+                    <div class="quantity-control">
+                        <span>Quantity</span>
+                        <div class="qty-buttons">
+                            <button type="button" class="qty-btn minus">-</button>
+                            <input type="text" name="qty_orange" value="1" min="1" class="qty-input">
+                            <button type="button" class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
+                </form>
+
+                <form class="order-item" action="cart.html" method="POST">
+                    <img src="../IMAGES/BottlePear.Optimized.jpg" alt="Pear Juice Bottle">
+                    <p class="product-price">Price 10.99</p>
+                    <h3>Pear</h3>
+                    <div class="quantity-control">
+                        <span>Quantity</span>
+                        <div class="qty-buttons">
+                            <button type="button" class="qty-btn minus">-</button>
+                            <input type="text" name="qty_pear" value="1" min="1" class="qty-input">
+                            <button type="button" class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
+                </form>
+
+                <form class="order-item" action="cart.html" method="POST">
+                    <img src="../IMAGES/BottlePlum.Optimized.jpg" alt="Plum Juice Bottle">
+                    <p class="product-price">Price 10.99</p>
+                    <h3>Plum</h3>
+                    <div class="quantity-control">
+                        <span>Quantity</span>
+                        <div class="qty-buttons">
+                            <button type="button" class="qty-btn minus">-</button>
+                            <input type="text" name="qty_plum" value="1" min="1" class="qty-input">
+                            <button type="button" class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
+                </form>
+
+                <form class="order-item" action="cart.html" method="POST">
+                    <img src="../IMAGES/BottleStrawberry.Optimized.jpg" alt="Strawberry Juice Bottle">
+                    <p class="product-price">Price 10.99</p>
+                    <h3>Strawberry</h3>
+                    <div class="quantity-control">
+                        <span>Quantity</span>
+                        <div class="qty-buttons">
+                            <button type="button" class="qty-btn minus">-</button>
+                            <input type="text" name="qty_strawberry" value="1" min="1" class="qty-input">
+                            <button type="button" class="qty-btn plus">+</button>
+                        </div>
+                    </div>
+                    <button type="submit" class="add-to-cart-btn">ADD TO CART</button>
+                </form>
+
             </div>
         </div>
     </main>
@@ -122,5 +211,6 @@
             © 2025 Penny Juice. All Rights Reserved.
         </div>
     </footer>
-</body>
+    
+    </body>
 </html>
